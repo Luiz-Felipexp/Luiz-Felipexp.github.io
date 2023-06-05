@@ -213,9 +213,11 @@ body {
 }
 
 .fotos-trabalhos {
-	width: 100%;
+	width: 50%;
 	margin-bottom: 10px;
 	margin-top: 10px;
+	margin-left: 28%;
+	margin-right: 20%;
 	}
 
 .back-link{
@@ -224,26 +226,28 @@ body {
 
 
 @keyframes profile-capa {
-	0% {opacity: 0; transform: translate(0px,20px);
-	100% {opacity: 1; transform: translate(0px,0px);
+	0% {opacity: 0; transform: translate(0px,20px)};
+	100% {opacity: 1; transform: translate(0px,0px)};
 }
 
 @keyframes titulo-capa {
-	0% {opacity: 0; transform: translate(0px,-20px);
-	100% {opacity: 1; transform: translate(0px,0px);
+	0% {opacity: 0; transform: translate(0px,-20px)};
+	100% {opacity: 1; transform: translate(0px,0px)};
 }
 
 @keyframes conteudo {
-	0% {opacity: 0; transform: translate(-20px,0px);
-	100% {opacity: 1; transform: translate(0px,0px);
+	0% {opacity: 0; transform: translate(-20px,0px)};
+	100% {opacity: 1; transform: translate(0px,0px)};
+}
 
 @keyframes navegacao {
-	0% {opacity: 0;}
-	50% {opacity: 0;}
-	100% {opacity: 1;}
+	0% {opacity: 0;};
+	50% {opacity: 0;};
+	100% {opacity: 1;};
+}
 
 
 
 .form-video {
-	margin top: 0;
+	margin-top: 0;
 }
